@@ -1,6 +1,6 @@
 # @keybindy/react
 
-@keybindy/react is the official React integration for the [Keybindy](https://www.npmjs.com/package/@keybindy/core) keyboard shortcut system. Built on top of `@keybindy/core`, this package brings powerful and scoped keyboard bindings to your React applications — with components and hooks tailored to React’s architecture.
+`@keybindy/react` is the official React integration for the [Keybindy](https://www.npmjs.com/package/@keybindy/core) keyboard shortcut system. Built on top of `@keybindy/core`, this package brings powerful and scoped keyboard bindings to your React applications — with components and hooks tailored to React’s architecture.
 
 [![npm version](https://badge.fury.io/js/@keybindy%2Freact.svg)](https://www.npmjs.com/package/@keybindy/react)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -113,11 +113,11 @@ A powerful hook that gives you full control over the shortcut system via the Sho
 | --------------------------------------------------------------------- | -------------------------------------------- |
 | [`register()`](https://github.com/keybindy/core#register)             | Register a shortcut                          |
 | [`unregister()`](https://github.com/keybindy/core#unregister)         | Unregister a shortcut                        |
-| [`enable()`](https://github.com/keybindy/core#enable)                 | Enable a specific shortcut                   |
-| [`disable()`](https://github.com/keybindy/core#disable)               | Disable a specific shortcut                  |
-| [`toggle()`](https://github.com/keybindy/core#toggle)                 | Toggle a shortcut on/off                     |
-| [`enableAll()`](https://github.com/keybindy/core#enableAll)           | Enable all shortcuts (global or scoped)      |
-| [`disableAll()`](https://github.com/keybindy/core#disableAll)         | Disable all shortcuts (global or scoped)     |
+| [`enable()`](https://github.com/keybindy/core#enable--disable--toggle)                 | Enable a specific shortcut                   |
+| [`disable()`](https://github.com/keybindy/core#enable--disable--toggle)               | Disable a specific shortcut                  |
+| [`toggle()`](https://github.com/keybindy/core#enable--disable--toggle)                 | Toggle a shortcut on/off                     |
+| [`enableAll()`](https://github.com/keybindy/core#enableall--disableall)           | Enable all shortcuts (global or scoped)      |
+| [`disableAll()`](https://github.com/keybindy/core#enableall--disableall)         | Disable all shortcuts (global or scoped)     |
 | [`setScope()`](https://github.com/keybindy/core#setactivescope)       | Set the active scope                         |
 | [`resetScope()`](https://github.com/keybindy/core#resetScope)         | Reset to default scope                       |
 | [`getScopes()`](https://github.com/keybindy/core#getScopes)           | Get all defined scopes                       |
